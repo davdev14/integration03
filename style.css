@@ -26,3 +26,7 @@
 .footer-img{
   background-image: url("/assets/images/Photo.png");
 }
+.third-shadow{
+  box-shadow: 40px 48px 105px 0px rgba(106, 106, 106, 0.20);
+  background: rgba(242, 242, 242, 0.93);
+}

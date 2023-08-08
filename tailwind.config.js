@@ -23,6 +23,7 @@ module.exports = {
         "prime-black": "#303030",
         "prime-secondary-black": "#4E4E4E",
         "border-color": "#DEDEDE",
+        "prime-grey": "#7D7D7D",
       },
       
     },

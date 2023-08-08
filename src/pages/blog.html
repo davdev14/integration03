@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/dist/output.css" />
+    <title>Blog</title>
+  </head>
+  <body class="text-prime-black font-jost">
+    <nav
+      class="px-4 md:px-10 xl:px-[100px] flex items-center justify-between lg:py-7 py-5 relative z-30"
+    >
+      <div class="flex items-center gap-x-2 cursor-pointer">
+        <img class="h-9" src="/assets/icons/Logo.svg" alt="logo" />
+        <p class="text-lg md:text-xl xl:text-2xl font-bold">PrimeCRM</p>
+      </div>
+      <div class="lg:hidden">
+        <img
+          class="w-10 hamburger float-right"
+          src="/assets/icons/hamburger-menu-svgrepo-com.svg"
+          alt="menu-icon"
+        />
+        <img
+          class="w-10 cross hidden"
+          src="/assets/icons/Close.svg"
+          alt="close-icon"
+        />
+      </div>
+      <div class="hidden lg:block">
+        <ul class="lg:text-lg 2xl:text-xl font-medium flex items-center">
+          <li class="cursor-pointer px-4 py-2 hover:underline">
+            <a href="#">Solution</a>
+          </li>
+          <li class="cursor-pointer px-4 py-2 hover:underline">
+            <a href="#">Industries</a>
+          </li>
+          <li class="cursor-pointer px-4 py-2 hover:underline">
+            <a href="#">Products</a>
+          </li>
+          <li class="cursor-pointer px-4 py-2 hover:underline">
+            <a href="#">Resources</a>
+          </li>
+          <li class="cursor-pointer px-4 py-2 hover:underline">
+            <a href="#">Pricing</a>
+          </li>
+          <li>
+            <button
+              class="text-white font-semibold rounded-[5px] lg:px-5 lg:py-2 2xl:px-[38px] 2xl:py-3 bg-prime-black text-center ml-4"
+            >
+              Login
+            </button>
+          </li>
+        </ul>
+      </div>
+      <div
+        class="mobile-nav absolute top-[80px] left-0 right-0 w-full bg-prime-black translate-y-[-190%] transition-transform duration-700 z-0"
+      >
+        <ul
+          class="lg:text-lg 2xl:text-xl font-medium flex flex-col items-center gap-y-2 py-8 text-white"
+        >
+          <li
+            class="cursor-pointer px-4 py-2 hover:text-prime-secondary-black border-b border-white w-full text-center"
+          >
+            <a href="#">Solution</a>
+          </li>
+          <li
+            class="cursor-pointer px-4 py-2 hover:text-prime-secondary-black border-b border-white w-full text-center"
+          >
+            <a href="#">Industries</a>
+          </li>
+          <li
+            class="cursor-pointer px-4 py-2 hover:text-prime-secondary-black border-b border-white w-full text-center"
+          >
+            <a href="#">Products</a>
+          </li>
+          <li
+            class="cursor-pointer px-4 py-2 hover:text-prime-secondary-black border-b border-white w-full text-center"
+          >
+            <a href="#">Resources</a>
+          </li>
+          <li
+            class="cursor-pointer px-4 py-2 hover:text-prime-secondary-black border-b border-white w-full text-center"
+          >
+            <a href="#">Pricing</a>
+          </li>
+          <li>
+            <button
+              class="text-prime-black font-semibold rounded-[5px] bg-white text-center px-5 py-2 mt-4"
+            >
+              Login
+            </button>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <main class="mb-10">
+      <section class="pt-[50px] xl:pt-[100px] flex flex-col items-center">
+        <h1 class="font-semibold text-xl md:text-2xl text-center">
+          Our Journal
+        </h1>
+        <p
+          class="text-prime-secondary-black font-open-sans text-sm md:text-lg pt-[14px] text-center"
+        >
+          Get the latest articles from our journal, writing, discuss and share
+        </p>
+      </section>
+      <section
+        class="grid grid-cols-1 lg:grid-cols-2 gap-x-[50px] mt-[160px] px-4 md:px-10 xl:px-[100px]"
+      >
+        <div>
+          <div class="card-secondary-shadow">
+            <div>
+              <img
+                class="rounded-t-xl md:rounded-t-[30px]"
+                src="/assets/images/blog-img-1.png"
+                alt="image"
+              />
+            </div>
+            <div class="px-4 md:px-8 py-[38px] space-y-8">
+              <div class="flex flex-col md:flex-row md:items-center gap-y-4 gap-x-7">
+                <div class="flex items-center gap-x-2">
+                  <img src="/assets/icons/calendar.svg" alt="icon" />
+                  <p
+                    class="text-sm md:text-lg lg:text-sm text-prime-grey font-open-sans font-medium"
+                  >
+                    April 10, 2022
+                  </p>
+                </div>
+                <div class="flex items-center gap-x-2">
+                  <img src="/assets/icons/user.svg" alt="icon" />
+                  <p
+                    class="text-sm md:text-lg lg:text-sm text-prime-grey font-open-sans font-medium"
+                  >
+                    Admin
+                  </p>
+                </div>
+                <div class="flex items-center gap-x-2">
+                  <img src="/assets/icons/message.svg" alt="icon" />
+                  <p
+                    class="text-sm md:text-lg lg:text-sm text-prime-grey font-open-sans font-medium"
+                  >
+                    No Comments
+                  </p>
+                </div>
+              </div>
+              <div>
+                <h2 class="text-xl md:text-2xl font-medium">
+                  6 Tips To Help You Build Your Social Media Effeciency & Better
+                </h2>
+                <p
+                  class="text-sm md:text-lg text-prime-grey font-open-sans pt-[15px]"
+                >
+                  Cras ultricies ligula sed magna dictum porta. Nulla quis lorem
+                  ut libero malesuada feugiat. ipsum dolor amet, consectetur
+                  adipiscing vestibulum ipsum primis in.
+                </p>
+              </div>
+              <div>
+                <button
+                  class="text-white font-semibold rounded-[5px] px-4 py-2 2xl:px-[38px] 2xl:py-4 bg-prime-black text-center"
+                >
+                  Read More
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            class="absolute right-0 z-[-10] hidden lg:block w-[500px] 2xl:w-[600px] 3xl:w-[700px]"
+          >
+            <img src="/assets/illustrations/Background (1).png" alt="icon" />
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="/script.js"></script>
+  </body>
+</html>
