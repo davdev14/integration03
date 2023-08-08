@@ -155,7 +155,7 @@
         class="md:grid md:grid-cols-2 md:max-lg:gap-y-5 lg:grid-cols-3 mt-[30px] gap-x-5 xl:gap-x-[44px] min-[1px]:max-md:space-y-5"
       >
         <div
-          class="rounded-[10px] px-[47px] py-[50px] card-bg card-shadow hover:drop-shadow-xl hover:bg-white hover:shadow"
+          class="rounded-[10px] px-7 md:px-[47px] py-[50px] card-bg card-shadow hover:drop-shadow-xl hover:bg-white hover:shadow"
         >
           <img src="/assets/icons/ICon.svg" alt="icon" />
           <h4 class="font-medium text-xl xl:text-2xl pt-5">
@@ -166,7 +166,7 @@
           </p>
         </div>
         <div
-          class="rounded-[10px] px-[47px] py-[50px] card-bg card-shadow hover:drop-shadow-xl hover:bg-white hover:shadow"
+          class="rounded-[10px] px-7 md:px-[47px] py-[50px] card-bg card-shadow hover:drop-shadow-xl hover:bg-white hover:shadow"
         >
           <img
             class="w-[64px] h-[64px]"
@@ -179,7 +179,7 @@
           </p>
         </div>
         <div
-          class="rounded-[10px] px-[47px] py-[50px] card-bg card-shadow hover:drop-shadow-xl hover:bg-white hover:shadow md:max-lg:col-span-2"
+          class="rounded-[10px] px-7 md:px-[47px] py-[50px] card-bg card-shadow hover:drop-shadow-xl hover:bg-white hover:shadow md:max-lg:col-span-2"
         >
           <img
             class="w-[64px] h-[64px]"
@@ -462,19 +462,21 @@
               placeholder="Email"
             />
           </div>
+          <div class="flex justify-center md:block">
           <button
-            class="bg-[#4BE3EB] text-sm xl:text-lg text-prime-black h-[50px] w-full md:w-fit px-2 xl:px-4 rounded-[5px] self-end"
+            class="bg-[#4BE3EB] text-sm xl:text-lg text-prime-black h-[50px] w-fit md:w-fit px-10 lg:px-2 xl:px-4 rounded-[5px] self-end"
           >
             Try Now
           </button>
         </div>
-        <div class="absolute top-[356px] md:top-[330px] lg:top-[220px]">
+        </div>
+        <div class="absolute top-[380px] md:top-[330px] lg:top-[220px]">
           <img src="/assets/illustrations/dashbord.png" alt="image" />
         </div>
       </div>
     </section>
     <section
-      class="mt-[90px] sm:mt-[150px] md:mt-[200px] lg:mt-[280px] 2xl:mt-[380px] 3xl:mt-[480px] px-4 md:px-10 xl:px-[100px]"
+      class="mt-[110px] sm:mt-[170px] md:mt-[200px] lg:mt-[280px] 2xl:mt-[380px] 3xl:mt-[480px] px-4 md:px-10 xl:px-[100px]"
     >
       <div class="flex flex-col justify-center items-center">
         <h3 class="font-semibold text-xl md:text-2xl text-center lg:text-start">
@@ -587,7 +589,7 @@
             >
               <img src="/assets/icons/pjm.svg" alt="icon" />
               <div class="flex flex-col">
-                <h4 class="text-lg md:text-xl font-medium">
+                <h4 class="text-lg md:text-xl font-medium leading-5">
                   Project Management
                 </h4>
                 <p class="text-prime-secondary-black text-xs md:text-base">
@@ -600,7 +602,7 @@
             >
               <img src="/assets/icons/delivery.svg" alt="icon" />
               <div class="flex flex-col">
-                <h4 class="text-lg md:text-xl font-medium">
+                <h4 class="text-lg md:text-xl font-medium leading-5">
                   Delivery Management
                 </h4>
                 <p class="text-prime-secondary-black text-xs md:text-base">
@@ -613,7 +615,7 @@
             >
               <img src="/assets/icons/loyalty.png" alt="icon" />
               <div class="flex flex-col">
-                <h4 class="text-lg md:text-xl font-medium">
+                <h4 class="text-lg md:text-xl font-medium leading-5">
                   Loyalty Management
                 </h4>
                 <p class="text-prime-secondary-black text-xs md:text-base">
@@ -624,7 +626,7 @@
             <div class="flex gap-x-[23px] items-center">
               <img src="/assets/icons/pro-mgt.svg" alt="icon" />
               <div class="flex flex-col">
-                <h4 class="text-lg md:text-xl font-medium">
+                <h4 class="text-lg md:text-xl font-medium leading-5">
                   Professional Management
                 </h4>
                 <p class="text-prime-secondary-black text-xs md:text-base">
@@ -657,7 +659,7 @@
                 <h4 class="text-xl md:text-2xl font-medium">
                   Download Our App
                 </h4>
-                <p class="text-prime-secondary-black text-sm md:text-lg">
+                <p class="text-prime-secondary-black text-sm md:text-lg pt-2">
                   CentraHub CRM automatically logs in any reactions made by your
                   leads, prospects
                 </p>
@@ -671,7 +673,7 @@
                 <h4 class="text-xl md:text-2xl font-medium">
                   List Your Company Detail
                 </h4>
-                <p class="text-prime-secondary-black text-sm md:text-lg">
+                <p class="text-prime-secondary-black text-sm md:text-lg pt-2">
                   Customers making it easier for your sales team members
                   audience they make contact.
                 </p>
@@ -685,7 +687,7 @@
                 <h4 class="text-xl md:text-2xl font-medium">
                   Enjoy Your Business
                 </h4>
-                <p class="text-prime-secondary-black text-sm md:text-lg">
+                <p class="text-prime-secondary-black text-sm md:text-lg pt-2">
                   customers, making it easier for your sales team members
                   audience before make contact.
                 </p>
@@ -748,64 +750,353 @@
         </div>
       </div>
     </section>
-    <section class="bg-prime-black testimonials-bg bg-no-repeat pt-[144px] mt-[90px]">
-      <div class="flex items-center gap-x-24 px-5 md:px-10 xl:px-[100px] text-white justify-between">
+    <section
+      class="bg-prime-black testimonials-bg bg-no-repeat pt-[144px] mt-[90px]"
+    >
+      <div
+        class="flex items-center gap-x-24 px-5 md:px-10 xl:px-[100px] text-white justify-between"
+      >
         <div class="hidden md:block">
-          <img src="/assets/icons/Left.svg" alt="icon">
+          <img src="/assets/icons/Left.svg" alt="icon" />
         </div>
         <div class="contet flex flex-col justify-center items-center gap-y-5">
           <div>
-            <img class="rounded-full" src="/assets/images/Phtoo.png" alt="image">
+            <img
+              class="rounded-full"
+              src="/assets/images/Phtoo.png"
+              alt="image"
+            />
           </div>
           <div>
-          <p class="font-semibold text-xl md:text-2xl">
-            <span class="pr-8"><img src="/assets/icons/quotes.svg" alt="icon"></span>
-            Adam Chen
-          </p>
-          <p class="text-sm md:text-lg text-center font-open-sans">Analyst</p>
-        </div>
+            <p class="font-semibold text-xl md:text-2xl">
+              <span class="pr-8"
+                ><img src="/assets/icons/quotes.svg" alt="icon"
+              /></span>
+              Adam Chen
+            </p>
+            <p class="text-sm md:text-lg text-center font-open-sans">Analyst</p>
+          </div>
           <div class="flex items-center gap-x-2">
-            <img src="/assets/icons/Star1.svg" alt="icon">
-            <img src="/assets/icons/Star1.svg" alt="icon">
-            <img src="/assets/icons/Star1.svg" alt="icon">
-            <img src="/assets/icons/Star1.svg" alt="icon">
-            <img src="/assets/icons/Star1.svg" alt="icon">
+            <img src="/assets/icons/Star1.svg" alt="icon" />
+            <img src="/assets/icons/Star1.svg" alt="icon" />
+            <img src="/assets/icons/Star1.svg" alt="icon" />
+            <img src="/assets/icons/Star1.svg" alt="icon" />
+            <img src="/assets/icons/Star1.svg" alt="icon" />
           </div>
           <div class="flex justify-center items-center">
-          <p class="text-lg md:text-xl text-center max-w-[650px] font-open-sans">
-            “ PrimeCRM Is The Most Intuitive And Modern Live Chat We Found. Live Chat Obviously Made <span class="text-[#47cfff]">Our Users Happier</span> And Our Service Department More Efficient
-          </p>
-        </div>
+            <p
+              class="text-lg md:text-xl text-center max-w-[650px] font-open-sans"
+            >
+              “ PrimeCRM Is The Most Intuitive And Modern Live Chat We Found.
+              Live Chat Obviously Made
+              <span class="text-[#47cfff]">Our Users Happier</span> And Our
+              Service Department More Efficient
+            </p>
+          </div>
         </div>
         <div class="hidden md:block">
-          <img src="/assets/icons/Right.svg" alt="icon">
+          <img src="/assets/icons/Right.svg" alt="icon" />
         </div>
       </div>
       <div class="px-5 md:px-10 xl:px-[100px] mt-28 text-white pb-[145px]">
         <div class="h-[1px] w-full bg-border-color"></div>
-        <div class="pt-[50px] grid grid-cols-2 gap-y-10 md:flex items-center justify-between lg:px-20"> 
+        <div
+          class="pt-[50px] grid grid-cols-2 gap-y-10 md:flex items-center justify-between lg:px-20"
+        >
           <div class="flex flex-col items-center">
-            <p class="font-semibold text-3xl lg:text-4xl">4.9<span class="text-[#47CFFF]">/</span>5</p>
-            <p class="text-xs lg:text-sm text-center font-open-sans">User Rating</p>
+            <p class="font-semibold text-3xl lg:text-4xl">
+              4.9<span class="text-[#47CFFF]">/</span>5
+            </p>
+            <p class="text-xs lg:text-sm text-center font-open-sans">
+              User Rating
+            </p>
           </div>
           <div class="flex flex-col items-center">
-            <p class="font-semibold text-3xl lg:text-4xl">350<span class="text-[#FFB545]">K</span>+</p>
-            <p class="text-xs lg:text-sm text-center font-open-sans">Customers</p>
+            <p class="font-semibold text-3xl lg:text-4xl">
+              350<span class="text-[#FFB545]">K</span>+
+            </p>
+            <p class="text-xs lg:text-sm text-center font-open-sans">
+              Customers
+            </p>
           </div>
           <div class="flex flex-col items-center">
-            <p class="font-semibold text-3xl lg:text-4xl">99<span class="text-[#47DD56]">+</span></p>
-            <p class="text-xs lg:text-sm text-center font-open-sans">Team Members</p>
+            <p class="font-semibold text-3xl lg:text-4xl">
+              99<span class="text-[#47DD56]">+</span>
+            </p>
+            <p class="text-xs lg:text-sm text-center font-open-sans">
+              Team Members
+            </p>
           </div>
           <div class="flex flex-col items-center">
-            <p class="font-semibold text-3xl lg:text-4xl">41<span class="text-[#FF5454]">M</span></p>
-            <p class="text-xs lg:text-sm text-center font-open-sans">Current Users</p>
+            <p class="font-semibold text-3xl lg:text-4xl">
+              41<span class="text-[#FF5454]">M</span>
+            </p>
+            <p class="text-xs lg:text-sm text-center font-open-sans">
+              Current Users
+            </p>
           </div>
         </div>
       </div>
     </section>
-    <section>
-
+    <section class="px-5 md:px-10 xl:px-[100px] mt-[90px]">
+      <div class="flex flex-col justify-center items-center">
+        <h3 class="font-semibold text-xl md:text-2xl text-center lg:text-start">
+          Deliver End-To-End Retail Billing & Solutions
+        </h3>
+        <p
+          class="text-prime-secondary-black max-w-[785px] text-center font-open-sans text-sm md:text-lg pt-4"
+        >
+          Unique and powerful suite of software to run your entire business,
+          brought to you by a company with the long term vision to transform the
+          way you work.
+        </p>
+      </div>
+      <div class="mt-9 relative">
+        <img
+          class="rounded-xl md:rounded-[30px] hidden lg:block"
+          src="/assets/illustrations/Pattern(2).png"
+          alt="image"
+        />
+        <div
+          class="flex flex-col justify-center items-center lg:items-start lg:flex-row gap-16 lg:absolute top-[115px] lg:left-[60px] 2xl:left-[140px] 3xl:left-[220px]"
+        >
+          <div class="flex flex-col gap-y-2">
+            <div class="flex items-center gap-x-2">
+              <img
+                class="shadow-md rounded-full"
+                src="/assets/icons/star-blk.svg"
+                alt="icon"
+              />
+              <p class="text-xl md:text-2xl">Starter</p>
+            </div>
+            <div
+              class="rounded-xl md:rounded-[30px] card-secondary-shadow bg-white p-9 md:w-[450px] lg:w-[375px] xl:w-[450px] font-open-sans"
+            >
+              <div class="border-b border-border-color">
+                <h4 class="text-3xl lg:text-4xl font-bold font-jost">$45/mo</h4>
+                <p class="text-sm md:text-lg pt-6 pb-8">
+                  Includes <b>1,000</b> marketing contacts. Additional marketing
+                  contacts are sold in increments of <b>1,000</b> from
+                </p>
+              </div>
+              <div class="pt-5">
+                <ul
+                  class="text-prime-secondary-black text-sm md:text-lg space-y-4"
+                >
+                  <li class="flex items-start gap-x-2">
+                    <img src="/assets/icons/Vector.svg" alt="icon" />
+                    <p>Outbound email and <b>in-product</b></p>
+                  </li>
+                  <li class="flex items-start gap-x-2">
+                    <img src="/assets/icons/Vector.svg" alt="icon" />
+                    <p>messaging</p>
+                  </li>
+                  <li class="flex items-start gap-x-2">
+                    <img src="/assets/icons/Vector.svg" alt="icon" />
+                    <p>
+                      <span class="text-[#FFB545]">Push messages</span> &
+                      notifications
+                    </p>
+                  </li>
+                  <li class="flex items-start gap-x-2">
+                    <img src="/assets/icons/Vector.svg" alt="icon" />
+                    <p>Custom bots</p>
+                  </li>
+                  <li class="flex items-start gap-x-2">
+                    <img src="/assets/icons/Vector.svg" alt="icon" />
+                    <p>Mobile Carousels</p>
+                  </li>
+                  <li class="flex items-start gap-x-2">
+                    <img src="/assets/icons/Vector.svg" alt="icon" />
+                    <p>Banner messages</p>
+                  </li>
+                  <li class="flex items-start gap-x-2">
+                    <img src="/assets/icons/Vector(1).svg" alt="icon" />
+                    <p><b>Multi-channel</b> campaigns</p>
+                  </li>
+                  <li class="flex items-start gap-x-2">
+                    <img src="/assets/icons/Vector(1).svg" alt="icon" />
+                    <p>A/B testing & control groups</p>
+                  </li>
+                </ul>
+                <button
+                  class="bg-[#EAEAEA] text-sm font-semibold xl:text-lg h-[50px] w-full rounded-xl self-end text-prime-black py-3 lg:py-8 mt-[18px] text-center flex justify-center items-center"
+                >
+                  <p>Get Started</p>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-col gap-y-2">
+            <div class="flex items-center gap-x-2">
+              <img
+                class="shadow-md rounded-full"
+                src="/assets/icons/star-white.svg"
+                alt="icon"
+              />
+              <p class="text-xl md:text-2xl">Professional</p>
+            </div>
+            <div
+              class="rounded-xl md:rounded-[30px] card-secondary-shadow bg-white p-9 md:w-[450px] lg:w-[375px] xl:w-[450px] font-open-sans"
+            >
+              <div class="border-b border-border-color">
+                <h4 class="text-3xl lg:text-4xl font-bold font-jost">$60/mo</h4>
+                <p class="text-sm md:text-lg pt-6 pb-8">
+                  Includes <b>2,000</b> marketing contacts. Additional marketing
+                  contacts are sold in increments of <b>5,000</b> from
+                </p>
+              </div>
+              <div class="pt-5">
+                <ul
+                  class="text-prime-secondary-black text-sm md:text-lg space-y-4"
+                >
+                  <li class="flex items-start gap-x-2">
+                    <img src="/assets/icons/Vector.svg" alt="icon" />
+                    <p>Outbound email and <b>in-product</b></p>
+                  </li>
+                  <li class="flex items-start gap-x-2">
+                    <img src="/assets/icons/Vector.svg" alt="icon" />
+                    <p>messaging</p>
+                  </li>
+                  <li class="flex items-start gap-x-2">
+                    <img src="/assets/icons/Vector.svg" alt="icon" />
+                    <p>
+                      <span class="text-[#FFB545]">Push messages</span> &
+                      notifications
+                    </p>
+                  </li>
+                  <li class="flex items-start gap-x-2">
+                    <img src="/assets/icons/Vector.svg" alt="icon" />
+                    <p>Custom bots</p>
+                  </li>
+                  <li class="flex items-start gap-x-2">
+                    <img src="/assets/icons/Vector.svg" alt="icon" />
+                    <p>Mobile Carousels</p>
+                  </li>
+                  <li class="flex items-start gap-x-2">
+                    <img src="/assets/icons/Vector.svg" alt="icon" />
+                    <p>Banner messages</p>
+                  </li>
+                  <li class="flex items-start gap-x-2">
+                    <img src="/assets/icons/Vector.svg" alt="icon" />
+                    <p><b>Multi-channel</b> campaigns</p>
+                  </li>
+                  <li class="flex items-start gap-x-2">
+                    <img src="/assets/icons/Vector.svg" alt="icon" />
+                    <p>A/B testing & control groups</p>
+                  </li>
+                  <li class="flex items-start gap-x-2">
+                    <img src="/assets/icons/Vector.svg" alt="icon" />
+                    <p>Website traffic analytics</p>
+                  </li>
+                  <li class="flex items-start gap-x-2">
+                    <img src="/assets/icons/Vector.svg" alt="icon" />
+                    <p>Campaign reporting</p>
+                  </li>
+                  <li class="flex items-start gap-x-2">
+                    <img src="/assets/icons/Vector.svg" alt="icon" />
+                    <p>Custom reporting</p>
+                  </li>
+                  <li class="flex items-start gap-x-2">
+                    <img src="/assets/icons/Vector.svg" alt="icon" />
+                    <p>Salesforce integration</p>
+                  </li>
+                </ul>
+                <button
+                  class="bg-prime-black text-sm font-semibold xl:text-lg h-[50px] w-full rounded-xl self-end text-white py-3 lg:py-8 mt-[18px] text-center flex justify-center items-center"
+                >
+                  <p>Get Started</p>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
+    <div
+      class="bg-prime-black mt-[90px] lg:mt-[850px] xl:mt-[750px] 2xl:mt-[700px]"
+    >
+      <footer class="px-5 md:px-10 xl:px-[100px] pt-28 text-white">
+        <div class="flex flex-col md:flex-row justify-between items-center gap-y-8">
+          <div class="flex items-center gap-x-2 cursor-pointer">
+            <img class="h-9" src="/assets/icons/Logo.svg" alt="logo" />
+            <p class="text-lg md:text-xl xl:text-2xl font-bold text-white">
+              PrimeCRM
+            </p>
+          </div>
+          <div class="flex items-center gap-x-7">
+            <img src="/assets/icons/Instagram.svg" alt="social-icon" />
+            <img src="/assets/icons/Facebook.svg" alt="social-icon" />
+            <img src="/assets/icons/Twiter.svg" alt="social-icon" />
+            <img src="/assets/icons/Linked in.svg" alt="social-icon" />
+            <img src="/assets/icons/Youtube.svg" alt="social-icon" />
+          </div>
+        </div>
+        <div class="mt-[80px] grid grid-cols-1 md:grid-cols-2 xl:grid-cols-[auto_auto_auto_400px] gap-y-10">
+          <div class="font-medium">
+            <h4
+              class="text-lg md:text-xl border-t border-b border-opacity-20 border-border-color py-4"
+            >
+              Usefull Link
+            </h4>
+            <ul class="text-sm md:text-lg space-y-4 pt-10">
+              <li>Solution</li>
+              <li>Industries</li>
+              <li>Products</li>
+              <li>Resources</li>
+              <li>Pricing</li>
+            </ul>
+          </div>
+          <div class="font-medium">
+            <h4
+              class="text-lg md:text-xl border-t border-b border-opacity-20 border-border-color py-4"
+            >
+              Service
+            </h4>
+            <ul class="text-sm md:text-lg space-y-4 pt-10">
+              <li>Sale</li>
+              <li>Marketing</li>
+              <li>Real Estate</li>
+              <li>Autimotive</li>
+              <li>Education</li>
+            </ul>
+          </div>
+          <div class="font-medium">
+            <h4
+              class="text-lg md:text-xl border-t border-b border-opacity-20 border-border-color py-4 mb-10"
+            >
+              Contact Us
+            </h4>
+            <p class="text-sm md:text-lg space-y-4 border border-opacity-20 border-border-color max-w-[281px] p-4 rounded-2xl">
+              1700 W Blancke St, kiyev port south USA, American
+            </p>
+            <p class="text-sm md:text-lg space-y-4 border border-opacity-20 border-border-color p-4 rounded-2xl mt-8 max-w-[216px]">
+              +3255 456 789 mail@primarily.com
+            </p>
+          </div>
+          <div class="font-medium">
+            <div class="flex justify-between items-center mb-10 border-opacity-20 border-t border-b border-border-color py-4">
+              <h4
+              class="text-lg md:text-xl"
+            >
+            Our Latest News
+            </h4>
+            <img class="w-[26px]" src="/assets/icons/Page Button.svg" alt="icon">
+            </div>
+            <div class="flex justify-end">
+            <div class="h-[226px] w-full rounded-xl flex justify-center items-center footer-img bg-no-repeat bg-center">
+              <button class="text-[#313131] font-semibold text-sm md:text-lg py-2 px-6 rounded-[5px] bg-white/75">Read Now</button>
+            </div>
+          </div>
+          </div>
+        </div>
+        <div class="border-t border-opacity-20 border-border-color mt-[60px] flex justify-center items-center">
+          <p class="text-sm md:text-lg pt-7 pb-8">
+            Copyright © Primarly | Designed by VictorFlow Templates 
+          </p>
+        </div>
+      </footer>
+    </div>
     <script src="/script.js"></script>
   </body>
 </html>
