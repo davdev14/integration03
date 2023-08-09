@@ -30,3 +30,11 @@
   box-shadow: 40px 48px 105px 0px rgba(106, 106, 106, 0.20);
   background: rgba(242, 242, 242, 0.93);
 }
+
+.border-gradient {
+  border: 1px solid;
+  border-image-slice: 1;
+}
+.border-gradient-grey {
+  border-image-source: linear-gradient(to right, rgb(255,255,255, 0.1), #dedede);
+}
