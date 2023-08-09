@@ -38,3 +38,6 @@
 .border-gradient-grey {
   border-image-source: linear-gradient(to right, rgb(255,255,255, 0.1), #dedede);
 }
+.gradient-bg{
+  background: linear-gradient(92deg, #7CE7FF 0%, #82FEE9 100%);
+}

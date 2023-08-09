@@ -24,6 +24,7 @@ module.exports = {
         "prime-secondary-black": "#4E4E4E",
         "border-color": "#DEDEDE",
         "prime-grey": "#7D7D7D",
+        "prime-secondary-grey": "#606060",
       },
       
     },
