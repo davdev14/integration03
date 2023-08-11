@@ -31,13 +31,49 @@
   background: rgba(242, 242, 242, 0.93);
 }
 
-.border-gradient {
-  border: 1px solid;
-  border-image-slice: 1;
-}
-.border-gradient-grey {
-  border-image-source: linear-gradient(to right, rgb(255,255,255, 0.1), #dedede);
-}
 .gradient-bg{
   background: linear-gradient(92deg, #7CE7FF 0%, #82FEE9 100%);
+}
+
+.box {
+  width: 100%;
+  position: relative;
+  border: 1px solid transparent;
+  background-color: white;
+  box-sizing: border-box;
+  background-clip: padding-box;
+  border-radius: 16px;
+}
+.box::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  margin: -2px;
+  border-radius: inherit;
+  background: linear-gradient(to right, rgb(255,255,255, 0.1), #dedede);
+}
+.box2 {
+  width: 100%;
+  position: relative;
+  border: 1px solid transparent;
+  background-color: #303030;
+  box-sizing: border-box;
+  background-clip: padding-box;
+  border-radius: 16px;
+}
+.box2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  margin: -2px;
+  border-radius: inherit;
+  background: linear-gradient(to right, rgb(255,255,255, 0.1), #dedede);
 }
