@@ -2010,6 +2010,10 @@ video {
     padding-left: 2.5rem;
   }
 
+  .md\:text-start {
+    text-align: start;
+  }
+
   .md\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
